@@ -29,10 +29,15 @@ func main() {
 		context.String(200, "DELETE!!!!!!!!!!!!!")
 	})
 	//启动HTTP服务，默认在0.0.0.0:8080启动服务
-	r.Run()
+	err := r.Run()
+	if err != nil {
+		return
+	}
 
 	//fmt.Println("git test") ***
 	//branch test
+	//merge with hot-fix
+	fmt.Println("hot-fix branch")
 	//merge test
 	fmt.Println("master branch")
 }
