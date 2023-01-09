@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"github.com/gin-gonic/gin"
 	"net/http"
 )
@@ -37,7 +36,8 @@ func main() {
 	//fmt.Println("git test") ***
 	//branch test
 	//merge with hot-fix
-	fmt.Println("hot-fix branch")
-	//merge test
-	fmt.Println("master branch")
+	//fmt.Println("hot-fix branch")
+	////merge test
+	//fmt.Println("master branch")
+	//fmt.Println("add a new line")
 }
